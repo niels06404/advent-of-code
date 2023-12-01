@@ -59,7 +59,7 @@ def read_puzzle_input(day: int) -> list[str]:
 
 
 def run_and_assert(
-    day: int, solution_function: callable, expected_answer: any
+    day: int | str, solution_function: callable, expected_answer: any
 ) -> None:
     """Runs the provided solution function on the example input and
       asserts the result.
